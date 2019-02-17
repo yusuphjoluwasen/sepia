@@ -1,7 +1,8 @@
 body {
   background-color: #d76f6f;
   color: white;
-  font-family: cursive;
+  font-family: "Roboto Slab", serif;
+  font-family: "Abril Fatface", cursive;
 }
 
 div.body {
@@ -91,7 +92,7 @@ textarea {
   width: 95%;
   padding: 0.3em;
   margin: 0.3em;
-  font-family: cursive;
+  font-family: "Roboto Slab", serif;
   background-color: #d76f6f;
   color: #801616;
   font-weight: bold;
