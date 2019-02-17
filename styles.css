@@ -1,0 +1,162 @@
+body {
+  background-color: #d76f6f;
+  color: white;
+  font-family: cursive;
+}
+
+div.body {
+  background-color: #aa3939;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  overflow: auto;
+}
+
+nav {
+  background-color: #801616;
+  height: 2em;
+  padding-top: 0.1em;
+  padding-bottom: 1.5em;
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+article a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #801616;
+  padding: 0.4em;
+}
+
+article {
+  margin-bottom: 2em;
+}
+
+li a:hover {
+  background-color: #330000;
+  padding-bottom: 1.1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1.1em;
+}
+
+.active {
+  font-weight: bold;
+  color: #d76f6f;
+}
+
+.clearr {
+  clear: both;
+}
+
+main {
+  float: left;
+  width: 60%;
+}
+
+div.footer {
+  clear: both;
+  background-color: #801616;
+  padding: 1em;
+  text-align: center;
+}
+
+section {
+  float: right;
+  width: 35%;
+  margin-top: 20px;
+  background-color: #801616;
+  padding: 1em;
+}
+
+nav ul li {
+  float: left;
+  margin-right: 30px;
+  list-style-type: none;
+}
+
+label {
+  padding: 0.5em;
+  margin: 0.5em;
+  font-family: cursive;
+  font-weight: bold;
+  color: #fff;
+}
+input,
+textarea {
+  width: 95%;
+  padding: 0.3em;
+  margin: 0.3em;
+  font-family: cursive;
+  background-color: #d76f6f;
+  color: #801616;
+  font-weight: bold;
+  border-radius: 0.5em;
+  border: 0.3px #801616 solid;
+}
+
+.button {
+  text-align: center;
+}
+.send {
+  padding-bottom: 0.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 0.5em;
+  margin-bottom: 2em;
+  font-size: 1em;
+  background-color: #801616;
+  color: #fff;
+  font-family: cursive;
+  border-radius: 0.5em;
+  border: 2px #801616 solid;
+}
+
+.send:hover {
+  background-color: #580101;
+  padding-left: 1.8em;
+  padding-right: 1.8em;
+  box-shadow: 1px 1px 1px #330000;
+  border: 2px #330000 solid;
+}
+.send:active {
+  background-color: #580101;
+  border: 2px #d76f6f solid;
+}
+@media screen and (max-width: 800px) {
+  nav {
+    height: 6em;
+    /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  nav ul li {
+    clear: both;
+  }
+
+  section {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  li a:hover {
+    background-color: #330000;
+    padding-bottom: 0.2em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    padding-top: 0.2em;
+  }
+
+  main {
+    clear: both;
+    width: 100%;
+  }
+
+  div.body {
+    text-align: center;
+    padding: 1em;
+  }
+}
